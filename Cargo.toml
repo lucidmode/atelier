@@ -1,6 +1,6 @@
 [package]
 name = "atelier"
-version = "0.1.0"
+version = "0.0.2"
 edition = "2021"
 description = "Workshop for ML models"
 authors = ["FranciscoME <if.francisco.me@gmail.com>"]
