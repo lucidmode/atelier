@@ -1,8 +1,19 @@
 [package]
 name = "atelier"
-version = "0.0.2"
-edition = "2021"ß
-description = "A Cognitive Workshop for Synthetic Intelligence"
+version = "0.0.4"
+edition = "2021"
+description = "Workshop for ML models"
 authors = ["FranciscoME <if.francisco.me@gmail.com>"]
 license = "Apache-2.0"
-repository = "https://github.com/lucidmode/atelier"
+repository = "https://github.com/DeML-Research/Atelier"
+
+[lib]
+name = "atelier"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.20.0", features = ["extension-module"] }
+
+[features]
+extension-module = ["pyo3/extension-module"]
+default = ["extension-module"]
