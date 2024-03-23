@@ -1,8 +1,8 @@
 [package]
 name = "atelier"
 version = "0.0.2"
-edition = "2021"
-description = "Workshop for ML models"
+edition = "2021"ß
+description = "A Cognitive Workshop for Synthetic Intelligence"
 authors = ["FranciscoME <if.francisco.me@gmail.com>"]
 license = "Apache-2.0"
-repository = "https://github.com/DeML-Research/Atelier"
+repository = "https://github.com/lucidmode/atelier"
