@@ -2,3 +2,4 @@
 maturin
 pandas
 numpy
+scipy
